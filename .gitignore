@@ -1,0 +1,31 @@
+# General
+node_modules/
+dist/
+.env
+.DS_Store
+.vscode/
+.idea/
+*.log
+*.lock
+*.cache
+
+# Go backend
+/go-vue-backend/bin/
+/go-vue-backend/pkg/
+go-vue-backend/go.sum
+go-vue-backend/go.mod
+
+# React frontend
+/react-frontend/node_modules/
+/react-frontend/build/
+/react-frontend/.env.local
+/react-frontend/.next/
+/react-frontend/.cache/
+/react-frontend/public/**/*.map
+
+# Vue frontend
+/vue-frontend/node_modules/
+/vue-frontend/dist/
+/vue-frontend/.env.local
+/vue-frontend/.cache/
+.vue-frontend/public/**/*.map
